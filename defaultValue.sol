@@ -13,23 +13,23 @@ contract Example1{
     //default value of variable type bool
     bool public Pass;    //default value=false ie false is the value at zero state
 
+   /* 
+    *  For bool, address, int and uint types you can use the commented function below to test for their default values.
+    *  The function below contains a boolean functionality where it returns true or false 
+    *  when the specified variables above are compared using the comparison operator == (Equality operator) to their zero state values  
+    *  Just uncomment the function and replace variableIdentifier with the respective identifier 
+    *  (eg. replace variableIdentifier with "age" for variable type uint). Also replace the zeroStateVal 
+    *  with the value of the respective variables when they are zero state (eg. replace zeroStateVal with 
+    *   "uint (0)" in-case of age variable)      NOTE: Do Not Include the quotes while Replacing!!!   
+    */
 
-////For bool, address, int and uint types you can use the commented function below to test for their default values. ////
-//// The function below contains a boolean functionality where it returns true or false ////
-//// when the specified variables above are compared using the comparison operator == (Equality operator) to their zero state values  //// 
-//// Just uncomment the function and replace variableIdentifier with the respective identifier ////
-//// (eg. replace variableIdentifier with "age" for variable type uint). Also replace the zeroStateVal ////
-////  with the value of the respective variables when they are zero state (eg. replace zeroStateVal with ////
-//// "uint (0)" in-case of age variable)      NOTE: Do Not Include the quotes while Replacing!!!   ////
 
-
-
-   ///////////////////////////////////////////////////////////
-   //// function test() public view returns(bool){        ////
-   ////                                                   ////
-   ////     return variableIdentifier == zeroStateVal;    ////
-   //// }                                                 ////
-   ///////////////////////////////////////////////////////////
+   /* 
+    * function test() public view returns(bool){  
+    *
+    *   return variableIdentifier == zeroStateVal;    
+    *   }                                                
+    */
 
 
 
